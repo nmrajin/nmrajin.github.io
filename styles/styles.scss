@@ -1027,3 +1027,25 @@ h3 {
     max-width: 80px;
   }
 }
+
+.email-reveal {
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  text-align: left;
+  cursor: pointer;
+  border: 0;
+  border-bottom: 1px solid var(--ink);
+  padding: 0 0 11px;
+}
+.email-reveal:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 6px;
+}
+.email-status {
+  font-size: 11px;
+  color: var(--muted);
+  margin: 12px 0 0;
+  max-width: 370px;
+}

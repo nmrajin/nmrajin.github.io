@@ -46,3 +46,31 @@ if (filterGroup && projectCards.length && projectCount) {
     projectCount.textContent = `${visible} ${visible === 1 ? "project" : "projects"}`;
   });
 }
+
+// Interaction-gated obfuscation deters basic HTML harvesters, not browser automation.
+const revealEmail = document.getElementById("reveal-email");
+const contactEmail = document.getElementById("contact-email");
+const emailStatus = document.getElementById("email-status");
+if (revealEmail && contactEmail && emailStatus) {
+  revealEmail.hidden = false;
+  emailStatus.hidden = false;
+  revealEmail.addEventListener(
+    "click",
+    () => {
+      const address = [
+        41, 58, 49, 50, 53, 107, 109, 106, 98, 27, 60, 54, 58, 50, 55, 117, 56,
+        52, 54,
+      ]
+        .map((value) => String.fromCharCode(value ^ 91))
+        .join("");
+      contactEmail.textContent = address;
+      contactEmail.href = `mailto:${address}`;
+      contactEmail.hidden = false;
+      revealEmail.hidden = true;
+      emailStatus.textContent =
+        "Email revealed. Select the address to open your email app.";
+      contactEmail.focus();
+    },
+    { once: true },
+  );
+}

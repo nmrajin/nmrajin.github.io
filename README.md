@@ -10,7 +10,7 @@ Use the existing checkout. Serve from its root:
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-`index.html` contains the content, `styles/styles.scss` is the stylesheet source, and `app.js` adds the current year, active navigation, and optional project filtering. Navigation and all content work with JavaScript disabled.
+`index.html` contains the content, `styles/styles.scss` is the stylesheet source, and `app.js` adds the current year, active navigation, and optional project filtering. Navigation and project content work with JavaScript disabled. Email is revealed on request with JavaScript; LinkedIn remains available without it.
 
 Compile styles with the cloud environment's pinned Sass:
 
@@ -27,7 +27,8 @@ For another machine, install Dart Sass 1.93.2 using your preferred package manag
 - Test navigation with and without JavaScript, keyboard focus, and reduced motion.
 - Check each project filter: All work (8), Commerce & web (3), Enterprise (2), IoT & data (3). Confirm the count and pressed button update together.
 - Open technical details by mouse and keyboard; all eight projects and disclosures must remain usable without JavaScript.
-- Confirm local resources load, and email/social links point to the intended destinations.
+- Confirm the initial HTML and script contain no plaintext email address or mailto target. Activate Reveal email address by keyboard; verify the link is populated and focused, and contact alternatives remain available without JavaScript.
+- Confirm local resources load, and social links point to the intended destinations.
 
 ## Content
 

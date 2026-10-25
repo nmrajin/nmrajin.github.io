@@ -610,7 +610,7 @@
           <ul>
             <li>
               <div>
-                <h4>DMA SmartHome</h4>
+                <h4>Smart Home Dashboard</h4>
                 <p>
                   Device and room management, energy charts, notifications, and
                   an installable dashboard.
@@ -620,7 +620,7 @@
             </li>
             <li>
               <div>
-                <h4>DMA-RBL</h4>
+                <h4>Vehicle Battery Analytics</h4>
                 <p>
                   Battery analytics with vehicle tracking, fuel-monitoring, and
                   remote-control views.
@@ -630,7 +630,7 @@
             </li>
             <li>
               <div>
-                <h4>DMA Smart Switch</h4>
+                <h4>Smart Lighting Control</h4>
                 <p>
                   Location-based light control with optimistic state, bulk
                   actions, and device alerts.
@@ -824,12 +824,32 @@
           For a project, a collaboration, or a conversation about software.<br />Drop
           me a line — I’d love to hear what you’re thinking.
         </p>
-        <a class="email-link" href="mailto:rajin0619@gmail.com"
-          >rajin0619@gmail.com
-          <span aria-hidden="true"
-            ><svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M5 19 19 5M5 5h14v14" /></svg></span
-        ></a>
+        <div class="email-contact">
+          <button
+            type="button"
+            class="email-link email-reveal"
+            id="reveal-email"
+            aria-controls="contact-email"
+            aria-describedby="email-status"
+            hidden
+          >
+            Reveal email address
+            <span aria-hidden="true"
+              ><svg class="arrow" viewBox="0 0 24 24">
+                <path d="M5 19 19 5M5 5h14v14" /></svg
+            ></span>
+          </button>
+          <a class="email-link" id="contact-email" hidden></a>
+          <p class="email-status" id="email-status" role="status" hidden>
+            Reveal my address to send an email.
+          </p>
+          <noscript
+            ><p class="email-status">
+              Enable JavaScript to reveal my email, or connect through LinkedIn
+              below.
+            </p></noscript
+          >
+        </div>
         <div class="social-links">
           <a
             href="https://github.com/nmrajin"
