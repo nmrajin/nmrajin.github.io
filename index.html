@@ -1,419 +1,875 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NM-Rajin</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-</head>
-<body class="main-content">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="right-header">
-                <h1 class="name">
-                    Hello, Welcome to my Portfolio.<span> <br/>
-                        I am, Nur Mohammed Rajin.
-                </h1>
-                <p>
-                    I'm currently pursuing a Bachelor of Science in Computer Science and Engineering at Southeast University, Dhaka. 
-                    I invite you to explore my journey through my personal, educational, and professional experiences. 
-                    Should you require further details, feel free to reach out to me.
-                </p>
-                <div class="btn-con">
-                    <a href="https://github.com/nmrajin/nmrajin.github.io/blob/main/resume/Resume%20of%20Nur%20Mohammed%20Rajin.pdf" class="main-btn">
-                        <span class="btn-text">Download My Resume</span>
-                        <span class="btn-icon"><i class="fas fa-download"></i></span>
-                    </a>
-                </div>
-            </div>
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="img/rajin.jpeg" alt="">
-                </div>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f3ed" />
+    <meta
+      name="description"
+      content="Nur Mohammed Rajin — software engineer in Dhaka, Bangladesh. Commerce platforms, operational dashboards, and connected systems."
+    />
+    <meta
+      property="og:title"
+      content="Nur Mohammed Rajin — Software Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Thoughtful interfaces. Capable systems. Full-stack engineering, AI integration, and Linux infrastructure."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nmrajin.github.io/" />
+    <meta
+      property="og:image"
+      content="https://nmrajin.github.io/img/rajin.jpeg"
+    />
+    <link rel="canonical" href="https://nmrajin.github.io/" />
+    <title>Nur Mohammed Rajin — Software Engineer</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="#home" aria-label="Rajin, home"
+        >rajin<span class="accent">.</span
+        ><span class="wordmark-caption">SOFTWARE ENGINEER</span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#expertise">Expertise</a
+        ><a href="#about">About</a
+        ><a class="nav-contact" href="#contact"
+          >Let’s talk
+          <span aria-hidden="true"
+            ><svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 19 19 5M5 5h14v14" /></svg></span
+        ></a>
+      </nav>
     </header>
-
-
-    <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
-            </div>
-            <div class="about-container">
-                <div class="left-about">
-                    <h4></h4>
-                    <p>
-                        I am Nur Mohammed Rajin, a passionate and dedicated Computer Science & Engineering (CSE) student with a relentless drive for learning and innovation. 
-                        Growing up with a deep fascination for technology. I choose my career in this field of computer science, 
-                        where I aspire to make meaningful contributions and carve a niche for myself in the ever-evolving tech landscape.
-                          <br /> <br /> My journey in CSE has been a captivating blend of academic exploration and practical application. 
-                        I thrive on challenges and constantly seek opportunities to expand my knowledge and skills. 
-                        Whether it's delving into complex algorithms, coding intricate software systems, or unraveling the mysteries of machine learning, 
-                        I am always eager to push the boundaries of my understanding and capabilities.
-
-                    </p>
-                    <div class="btn-con">
-                        <a href="https://github.com/nmrajin/nmrajin.github.io/blob/main/resume/Resume%20of%20Nur%20Mohammed%20Rajin.pdf" class="main-btn">
-                            <span class="btn-text">Download My Resume</span>
-                            <span class="btn-icon"><i class="fas fa-download"></i></span>
-                        </a>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="about-stats">
-                <h4 class="stat-title">Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">Artificial Intelligence (AI)</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="ai"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Deep Learning</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="deep-learning"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Machine Learning</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="machine-learning"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Image Processing</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="image-processing"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Computer Networking</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="computer-networking"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Web and Internet Programming</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="web-internet-programming"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">C/C++ Programming</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="c-cplusplus"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">PHP</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="php"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">HTML</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">CSS</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Database Management</p>
-                        <div class="progress-con">
-                            <p class="prog-text"></p>
-                            <div class="progress">
-                                <span class="database-management"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-
-            <h4 class="stat-title">Education</h4>
-<div class="timeline">
-    <div class="timeline-item">
-        <div class="tl-icon">
-            <i class="fas fa-graduation-cap"></i>
+    <main id="main">
+      <section class="hero wrap" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot" aria-hidden="true"></span> DHAKA,
+            BANGLADESH <span class="eyebrow-divider">/</span> 23.81° N, 90.41° E
+          </p>
+          <h1 id="hero-title">
+            Thoughtful<br />interfaces.<br /><em>Capable systems.</em>
+          </h1>
+          <p class="hero-intro">
+            I’m Nur Mohammed Rajin, a software engineer working across commerce
+            platforms, operational dashboards, and connected systems.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work"
+              >Explore my work
+              <span aria-hidden="true"
+                ><svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 5l14 14M5 19h14V5" /></svg></span></a
+            ><a
+              class="text-link"
+              href="https://github.com/nmrajin"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub
+              <span aria-hidden="true"
+                ><svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 19 19 5M5 5h14v14" /></svg></span
+              ><span class="sr-only"> (opens in a new tab)</span></a
+            >
+          </div>
+          <div class="hero-note">
+            <span class="small-rule" aria-hidden="true"></span> From the first
+            interaction to the server behind it.
+          </div>
         </div>
-        <p class="tl-duration">2017</p>
-        <h5>Secondary School Certificate (SSC)<span> - (2007-2017)</span></h5>
-        <p>School: Tejgaon Goverment High School</p>
-    </div>
-    <div class="timeline-item">
-        <div class="tl-icon">
-            <i class="fas fa-graduation-cap"></i>
-        </div>
-        <p class="tl-duration">2019</p>
-        <h5>Higher Secondary Certificate (HSC)<span> - (2017-2019)</span></h5>
-        <p>College: Ideal College, Dhanmondi</p>
-    </div>
-    <div class="timeline-item">
-        <div class="tl-icon">
-            <i class="fas fa-graduation-cap"></i>
-        </div>
-        <p class="tl-duration">2024 (Expected)</p>
-        <h5>Current Studies<span> - Southeast University</span></h5>
-        <p>Program: Bachelor of Science (BSc) in Computer Science and Engineering (CSE)</p>
-    </div>
-</div>
-
+        <figure class="portrait-card">
+          <div class="portrait-label">
+            <span>THE PERSON BEHIND THE CODE</span
+            ><span aria-hidden="true"
+              ><svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 19 19 5M5 5h14v14" /></svg
+            ></span>
+          </div>
+          <img
+            src="img/rajin.jpeg"
+            alt="Nur Mohammed Rajin wearing glasses and a brown jacket"
+            width="1280"
+            height="1280"
+            fetchpriority="high"
+          />
+          <figcaption>
+            <div>
+              <strong>Nur Mohammed Rajin</strong><span>Software Engineer</span>
             </div>
-        </section>
-
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2>My <span>Projects</span><span class="bg-text">My Work</span></h2>
-            </div>
-            <p class="port-text">
-                Here are some of the projects I've worked on:
-            </p>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/gold.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Computer Graphics Project: Building City using OpenGL glut</h3>
-                        <div class="icons">
-                            <a href="https://github.com/nmrajin/Computer_Graphics_Project_Building_City_of_Gold_using_OPENGL_glut" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/water.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Automatic Water Dispenser System Using Arduino</h3>
-                        <div class="icons">
-                            <a href="https://github.com/rishuvro/Automatic_Water_Dispenser_System_Using_Arduino" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/ecom.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>E-Commerce Web Application</h3>
-                        <div class="icons">
-                            <a href="https://github.com/nmrajin/Web-Lab-Project" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/chat.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Basic Chat App (Message Board) using Sockets in Python</h3>
-                        <div class="icons">
-                            <a href="https://github.com/nmrajin/ADV-Networking-Lab-Project" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/pms.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Petrol Pump Management System</h3>
-                        <div class="icons">
-                            <a href="https://github.com/nmrajin/PETROL_PUMP_MANAGEMENT_SYSTEM" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-<section class="container" id="research">
-    <div class="research-content">
-        <div class="main-title">
-            <h2>My <span>Research</span><span class="bg-text">My Research</span></h2>
+            <span class="portrait-mark" aria-hidden="true">nr.</span>
+          </figcaption>
+        </figure>
+      </section>
+      <div class="stack-strip" aria-label="Core technologies">
+        <div class="wrap">
+          <span class="stack-label">MY TOOLKIT</span><span>Next.js</span
+          ><span>React</span><span>Python</span><span>Django</span
+          ><span>Docker</span><span>Linux</span
+          ><span class="strip-end" aria-hidden="true"
+            ><svg class="spark" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M24 4v40M4 24h40M10 10l28 28M10 38l28-28" /></svg
+          ></span>
         </div>
-        <div class="research">
-            <div class="research-item">
-                <h4>Current Research Projects:</h4>
+      </div>
+      <section
+        class="section wrap work-section"
+        id="work"
+        aria-labelledby="work-title"
+      >
+        <div class="section-top">
+          <p class="eyebrow">01 / SELECTED WORK</p>
+          <span class="section-aside"
+            >Commerce. Operations. Connected systems.</span
+          >
+        </div>
+        <div class="section-heading">
+          <h2 id="work-title">
+            Software for the<br /><em>work that matters.</em>
+          </h2>
+          <p>
+            A selection of engineering projects across commerce, business
+            operations, and connected devices.
+          </p>
+        </div>
+        <div class="work-tools">
+          <div
+            class="work-filters"
+            role="group"
+            aria-label="Filter projects"
+            hidden
+          >
+            <button type="button" data-filter="all" aria-pressed="true">
+              All work</button
+            ><button type="button" data-filter="commerce" aria-pressed="false">
+              Commerce &amp; web</button
+            ><button
+              type="button"
+              data-filter="enterprise"
+              aria-pressed="false"
+            >
+              Enterprise</button
+            ><button type="button" data-filter="iot" aria-pressed="false">
+              IoT &amp; data
+            </button>
+          </div>
+          <p
+            id="project-count"
+            class="project-count"
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            8 projects
+          </p>
+        </div>
+        <div class="project-grid">
+          <article
+            class="project-card"
+            data-category="commerce"
+            aria-labelledby="mizala-title"
+          >
+            <div class="project-visual visual-commerce" aria-hidden="true">
+              <span class="visual-index">PROJECT 01</span>
+              <div class="project-flow">
+                <span>Storefront</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Orders</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Fulfillment</span>
+              </div>
+              <span class="visual-caption"
+                >From storefront to fulfillment.</span
+              >
+            </div>
+            <div class="project-body">
+              <p class="project-category">Commerce</p>
+              <h3 id="mizala-title">Mizala</h3>
+              <p class="project-description">
+                A custom commerce platform connecting product discovery,
+                checkout, payments, and the day-to-day work of running a shop.
+              </p>
+              <ul class="tags" aria-label="Mizala technologies">
+                <li>Next.js</li>
+                <li>Django REST</li>
+                <li>PostgreSQL</li>
+                <li>Celery</li>
+              </ul>
+              <details class="project-details">
+                <summary>
+                  Technical details<span class="sr-only"> for Mizala</span>
+                </summary>
                 <ul>
-                    <li>Bone Osteoporosis Detection</li>
+                  <li>
+                    Product variants, search, cart, and a dedicated
+                    administrative CMS.
+                  </li>
+                  <li>
+                    Cash-on-delivery and bKash payment flows, with courier
+                    dispatch integrations.
+                  </li>
+                  <li>
+                    Background tasks and server-sent events support order
+                    operations.
+                  </li>
                 </ul>
+              </details>
             </div>
-            <div class="research-item">
-                <h4>Future Research Directions:</h4>
-                <p>Stay tuned for updates on any upcoming research initiatives.</p>
+          </article>
+          <article
+            class="project-card"
+            data-category="iot"
+            aria-labelledby="goti-vehicle-title"
+          >
+            <div class="project-visual visual-iot" aria-hidden="true">
+              <span class="visual-index">PROJECT 02</span>
+              <div class="project-flow">
+                <span>Telemetry</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Diagnostics</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Mobile PWA</span>
+              </div>
+              <span class="visual-caption"
+                >One view of a connected vehicle.</span
+              >
             </div>
+            <div class="project-body">
+              <p class="project-category">Connected vehicles</p>
+              <h3 id="goti-vehicle-title">Goti · Vehicle Diagnostics</h3>
+              <p class="project-description">
+                A mobile-first PWA bringing battery health, fuel and mileage,
+                GPS tracking, and payments into a unified vehicle experience.
+              </p>
+              <ul
+                class="tags"
+                aria-label="Goti · Vehicle Diagnostics technologies"
+              >
+                <li>Next.js</li>
+                <li>TypeScript</li>
+                <li>Highcharts</li>
+                <li>Leaflet</li>
+              </ul>
+              <details class="project-details">
+                <summary>
+                  Technical details<span class="sr-only">
+                    for Goti · Vehicle Diagnostics</span
+                  >
+                </summary>
+                <ul>
+                  <li>
+                    Source-aware battery data combines two integrations without
+                    mixing vehicle identities.
+                  </li>
+                  <li>
+                    Degraded-source handling preserves known vehicle data when
+                    an integration is unavailable.
+                  </li>
+                  <li>
+                    English and Bangla interfaces, installable PWA support, and
+                    an offline fuel-entry queue.
+                  </li>
+                </ul>
+              </details>
+            </div>
+          </article>
+          <article
+            class="project-card"
+            data-category="enterprise"
+            aria-labelledby="goti-erp-title"
+          >
+            <div class="project-visual visual-enterprise" aria-hidden="true">
+              <span class="visual-index">PROJECT 03</span>
+              <div class="project-flow">
+                <span>Finance</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>People</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Inventory</span>
+              </div>
+              <span class="visual-caption"
+                >A connected workspace for operations.</span
+              >
+            </div>
+            <div class="project-body">
+              <p class="project-category">Business operations</p>
+              <h3 id="goti-erp-title">GOTI ERP</h3>
+              <p class="project-description">
+                A modular ERP frontend for accounting, HR, inventory, project
+                management, and procurement, integrating with separate Django
+                services.
+              </p>
+              <ul class="tags" aria-label="GOTI ERP technologies">
+                <li>Next.js</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>REST APIs</li>
+              </ul>
+              <details class="project-details">
+                <summary>
+                  Technical details<span class="sr-only"> for GOTI ERP</span>
+                </summary>
+                <ul>
+                  <li>
+                    Module-specific navigation and reusable tables, forms, and
+                    application shells.
+                  </li>
+                  <li>
+                    Typed service clients handle pagination, request timeouts,
+                    and session refresh.
+                  </li>
+                  <li>
+                    Accounting workflows include journal entries, vouchers,
+                    ledgers, and financial reports.
+                  </li>
+                </ul>
+              </details>
+            </div>
+          </article>
+          <article
+            class="project-card"
+            data-category="iot"
+            aria-labelledby="floorsight-title"
+          >
+            <div class="project-visual visual-iot" aria-hidden="true">
+              <span class="visual-index">PROJECT 04</span>
+              <div class="project-flow">
+                <span>BLE signals</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Floor plans</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Insights</span>
+              </div>
+              <span class="visual-caption"
+                >Make the floor plan actionable.</span
+              >
+            </div>
+            <div class="project-body">
+              <p class="project-category">Retail intelligence</p>
+              <h3 id="floorsight-title">FloorSight</h3>
+              <p class="project-description">
+                A multi-outlet retail dashboard connecting BLE-based staff
+                positions, cold-chain asset monitoring, and movement analytics
+                on store floor plans.
+              </p>
+              <ul class="tags" aria-label="FloorSight technologies">
+                <li>Next.js</li>
+                <li>TypeScript</li>
+                <li>BLE data</li>
+                <li>Data visualization</li>
+              </ul>
+              <details class="project-details">
+                <summary>
+                  Technical details<span class="sr-only"> for FloorSight</span>
+                </summary>
+                <ul>
+                  <li>
+                    Interactive floor plans with live positions, asset overlays,
+                    and measurement tools.
+                  </li>
+                  <li>
+                    Employee rosters and asset telemetry provide detailed
+                    operational views.
+                  </li>
+                  <li>
+                    Reports cover dwell heatmaps, zone coverage, and off-floor
+                    movement.
+                  </li>
+                </ul>
+              </details>
+            </div>
+          </article>
+          <article
+            class="project-card"
+            data-category="iot"
+            aria-labelledby="facility-control-title"
+          >
+            <div class="project-visual visual-iot" aria-hidden="true">
+              <span class="visual-index">PROJECT 05</span>
+              <div class="project-flow">
+                <span>Sensors</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Controls</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Energy</span>
+              </div>
+              <span class="visual-caption"
+                >See the building. Control the essentials.</span
+              >
+            </div>
+            <div class="project-body">
+              <p class="project-category">Building systems</p>
+              <h3 id="facility-control-title">Facility Control Dashboard</h3>
+              <p class="project-description">
+                A unified facility interface for air conditioning, temperature
+                sensors, lights, fans, and energy analysis.
+              </p>
+              <ul
+                class="tags"
+                aria-label="Facility Control Dashboard technologies"
+              >
+                <li>Next.js</li>
+                <li>Zustand</li>
+                <li>Recharts</li>
+                <li>TypeScript</li>
+              </ul>
+              <details class="project-details">
+                <summary>
+                  Technical details<span class="sr-only">
+                    for Facility Control Dashboard</span
+                  >
+                </summary>
+                <ul>
+                  <li>
+                    AC changes are staged before Apply; bulk device actions
+                    require confirmation.
+                  </li>
+                  <li>
+                    Offline sensors retain clearly labeled last-known readings
+                    rather than appearing live.
+                  </li>
+                  <li>
+                    Energy charts include table views and spreadsheet export for
+                    closer inspection.
+                  </li>
+                </ul>
+              </details>
+            </div>
+          </article>
+          <article
+            class="project-card"
+            data-category="enterprise"
+            aria-labelledby="toron-title"
+          >
+            <div class="project-visual visual-enterprise" aria-hidden="true">
+              <span class="visual-index">PROJECT 06</span>
+              <div class="project-flow">
+                <span>Field app</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Sync</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Manager portal</span>
+              </div>
+              <span class="visual-caption"
+                >Keep field work moving, even offline.</span
+              >
+            </div>
+            <div class="project-body">
+              <p class="project-category">Distribution &amp; warranty</p>
+              <h3 id="toron-title">Toron</h3>
+              <p class="project-description">
+                A cross-platform battery distribution and warranty system
+                linking a mobile field app with a manager portal and backend
+                services.
+              </p>
+              <ul class="tags" aria-label="Toron technologies">
+                <li>Django</li>
+                <li>React Native</li>
+                <li>Expo</li>
+                <li>SQLite</li>
+              </ul>
+              <details class="project-details">
+                <summary>
+                  Technical details<span class="sr-only"> for Toron</span>
+                </summary>
+                <ul>
+                  <li>
+                    Offline-first mobile storage with queued actions and
+                    bidirectional delta synchronization.
+                  </li>
+                  <li>
+                    Inventory, sales, delivery challans, and warranty workflows
+                    share a serial-number lifecycle.
+                  </li>
+                  <li>
+                    FIFO inventory checks and retry-safe synchronization support
+                    consistent stock handling.
+                  </li>
+                </ul>
+              </details>
+            </div>
+          </article>
+          <article
+            class="project-card"
+            data-category="commerce"
+            aria-labelledby="asiks-world-title"
+          >
+            <div class="project-visual visual-commerce" aria-hidden="true">
+              <span class="visual-index">PROJECT 07</span>
+              <div class="project-flow">
+                <span>Catalog</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>WhatsApp orders</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Owner admin</span>
+              </div>
+              <span class="visual-caption"
+                >A small shop with a practical workflow.</span
+              >
+            </div>
+            <div class="project-body">
+              <p class="project-category">Retail storefront</p>
+              <h3 id="asiks-world-title">Asik’s World</h3>
+              <p class="project-description">
+                A static retail storefront and owner admin for a
+                Bangladesh-based hobby and gaming shop, connecting catalog
+                management with WhatsApp ordering.
+              </p>
+              <ul class="tags" aria-label="Asik’s World technologies">
+                <li>Astro</li>
+                <li>Supabase</li>
+                <li>Cloudflare</li>
+                <li>TypeScript</li>
+              </ul>
+              <details class="project-details">
+                <summary>
+                  Technical details<span class="sr-only">
+                    for Asik’s World</span
+                  >
+                </summary>
+                <ul>
+                  <li>
+                    Owner tools manage products, stock, photos, categories, and
+                    an order follow-up log.
+                  </li>
+                  <li>
+                    Catalog changes trigger a static rebuild; uploaded images
+                    are copied into the published site.
+                  </li>
+                  <li>
+                    Customer order flows support cash on delivery, with
+                    structured product pages and collection feeds.
+                  </li>
+                </ul>
+              </details>
+            </div>
+          </article>
+          <article
+            class="project-card"
+            data-category="commerce"
+            aria-labelledby="omilique-it-title"
+          >
+            <div class="project-visual visual-commerce" aria-hidden="true">
+              <span class="visual-index">PROJECT 08</span>
+              <div class="project-flow">
+                <span>Content</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Bangla / English</span
+                ><span class="flow-connector" aria-hidden="true">→</span
+                ><span>Static site</span>
+              </div>
+              <span class="visual-caption"
+                >Two languages. One coherent experience.</span
+              >
+            </div>
+            <div class="project-body">
+              <p class="project-category">Bilingual studio website</p>
+              <h3 id="omilique-it-title">Omilique IT</h3>
+              <p class="project-description">
+                A Bangla and English studio website with content-driven product
+                and work pages, plus a collection of storefront demos.
+              </p>
+              <ul class="tags" aria-label="Omilique IT technologies">
+                <li>Astro</li>
+                <li>Cloudflare Workers</li>
+                <li>Content schemas</li>
+                <li>i18n</li>
+              </ul>
+              <details class="project-details">
+                <summary>
+                  Technical details<span class="sr-only"> for Omilique IT</span>
+                </summary>
+                <ul>
+                  <li>
+                    Structured, validated content powers product, work, FAQ, and
+                    team pages.
+                  </li>
+                  <li>
+                    Ten storefront demos are integrated into the static build
+                    and thumbnail workflow.
+                  </li>
+                  <li>
+                    A contact Worker and WhatsApp fallback support the studio’s
+                    enquiry flow.
+                  </li>
+                </ul>
+              </details>
+            </div>
+          </article>
         </div>
-    </div>
-</section>
-
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
-                </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Here is my Contact</h4>
-                        <p>
-                        </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Location</span>
-                                </div>
-                                <p>
-                                    : Dhaka, Bangladesh
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email</span>
-                                </div>
-                                <p>
-                                    <span>: rajin0619@gmail.com</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Education</span>
-                                </div>
-                                <p>
-                                    <span>: Southeast University, Dhaka</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-phone"></i>
-                                    <span>Mobile Number</span>
-                                </div>
-                                <p>
-                                    <span>: +88 01924779105</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-asia"></i>
-                                    <span>Languages</span>
-                                </div>
-                                <p>
-                                    <span>: Bangla, English</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.facebook.com/NMRajin" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="https://twitter.com/NMRajin" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="https://github.com/nmrajin" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/nmrajin/" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </a>
-                            <a href="https://www.researchgate.net/profile/Nur-Rajin" target="_blank">
-                                <i class="fab fa-researchgate"></i>
-                            </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
+        <div class="related-work">
+          <div class="related-heading">
+            <h3>More systems,<br /><em>different challenges.</em></h3>
+            <p>Related dashboards and explorations.</p>
+          </div>
+          <ul>
+            <li>
+              <div>
+                <h4>DMA SmartHome</h4>
+                <p>
+                  Device and room management, energy charts, notifications, and
+                  an installable dashboard.
+                </p>
+              </div>
+              <span>Next.js · Recharts</span>
+            </li>
+            <li>
+              <div>
+                <h4>DMA-RBL</h4>
+                <p>
+                  Battery analytics with vehicle tracking, fuel-monitoring, and
+                  remote-control views.
+                </p>
+              </div>
+              <span>Next.js · Leaflet</span>
+            </li>
+            <li>
+              <div>
+                <h4>DMA Smart Switch</h4>
+                <p>
+                  Location-based light control with optimistic state, bulk
+                  actions, and device alerts.
+                </p>
+              </div>
+              <span>Next.js · Zustand</span>
+            </li>
+            <li>
+              <div>
+                <h4>AC Power &amp; Temperature</h4>
+                <p>
+                  Air-conditioner monitoring, control, consumption charts, and
+                  alert navigation.
+                </p>
+              </div>
+              <span>React · Vite</span>
+            </li>
+            <li>
+              <div>
+                <h4>Asset Tracker</h4>
+                <p>
+                  A prototype exploring rider and technician tracking, asset
+                  status, and interactive maps using simulated data.
+                </p>
+              </div>
+              <span>Next.js · Leaflet · Prototype</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="section wrap"
+        id="expertise"
+        aria-labelledby="expertise-title"
+      >
+        <div class="section-top">
+          <p class="eyebrow">02 / ENGINEERING FOCUS</p>
+          <span class="section-aside"
+            >The interface. The logic. The infrastructure.</span
+          >
+        </div>
+        <div class="section-heading">
+          <h2 id="expertise-title">
+            Built with perspective.<br /><em>Across the stack.</em>
+          </h2>
+          <p>
+            My work connects modern web development, intelligent workflows, and
+            the systems that keep applications running.
+          </p>
+        </div>
+        <div class="expertise-grid">
+          <article class="expertise-card">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">&lt;/&gt;</span
+              ><span class="card-number">01</span>
             </div>
-        </section>
+            <h3>Full-stack<br />development</h3>
+            <p>
+              Modern web platforms with React and Next.js, backed by Python,
+              Django, and relational databases.
+            </p>
+            <ul class="tags" aria-label="Full-stack technologies">
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Django REST</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </article>
+          <article class="expertise-card">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true"
+                ><svg class="spark" viewBox="0 0 48 48" aria-hidden="true">
+                  <path
+                    d="M24 4v40M4 24h40M10 10l28 28M10 38l28-28"
+                  /></svg></span
+              ><span class="card-number">02</span>
+            </div>
+            <h3>AI &amp; intelligent<br />workflows</h3>
+            <p>
+              Exploring AI and machine learning integration to bring intelligent
+              capabilities into useful software.
+            </p>
+            <ul class="tags" aria-label="AI technologies">
+              <li>Python</li>
+              <li>PyTorch</li>
+              <li>scikit-learn</li>
+              <li>AI integration</li>
+            </ul>
+          </article>
+          <article class="expertise-card">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">[~]</span
+              ><span class="card-number">03</span>
+            </div>
+            <h3>Infrastructure<br />&amp; DevOps</h3>
+            <p>
+              Linux server administration, containerized applications, and the
+              workflows connecting development to deployment.
+            </p>
+            <ul class="tags" aria-label="Infrastructure technologies">
+              <li>Linux</li>
+              <li>Docker</li>
+              <li>Nginx</li>
+              <li>Bash</li>
+            </ul>
+          </article>
+        </div>
+        <a
+          class="text-link section-link"
+          href="https://github.com/nmrajin"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Explore my public GitHub
+          <span aria-hidden="true"
+            ><svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 19 19 5M5 5h14v14" /></svg></span
+          ><span class="sr-only"> (opens in a new tab)</span></a
+        >
+      </section>
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="wrap about-grid">
+          <div class="about-heading">
+            <p class="eyebrow">03 / A LITTLE ABOUT ME</p>
+            <h2 id="about-title">
+              Curiosity drives it.<br /><em>Craft shapes it.</em>
+            </h2>
+            <div class="about-monogram" aria-hidden="true">
+              n<span>r</span
+              ><i
+                ><svg class="spark" viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M24 4v40M4 24h40M10 10l28 28M10 38l28-28" /></svg
+              ></i>
+            </div>
+          </div>
+          <div class="about-copy">
+            <p class="large-copy">
+              I like understanding how things fit together — from the experience
+              on screen to the infrastructure underneath.
+            </p>
+            <p>
+              I’m a software engineer based in Dhaka, Bangladesh. My project
+              work spans commerce platforms, ERP workflows, vehicle diagnostics,
+              and connected-device dashboards — using Next.js, React, Python,
+              Django, Astro, and React Native.
+            </p>
+            <p>
+              Beyond code, I’m interested in UI/UX design, visual creativity,
+              and embedded hardware. That mix keeps me curious about both how
+              software works and how it feels to use.
+            </p>
+            <dl class="about-details">
+              <div>
+                <dt>BASED IN</dt>
+                <dd>Dhaka, Bangladesh</dd>
+              </div>
+              <div>
+                <dt>FOCUS</dt>
+                <dd>Commerce · Operations · IoT</dd>
+              </div>
+            </dl>
+            <a
+              class="text-link"
+              href="https://www.linkedin.com/in/nmrajin/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Connect on LinkedIn
+              <span aria-hidden="true"
+                ><svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 19 19 5M5 5h14v14" /></svg></span
+              ><span class="sr-only"> (opens in a new tab)</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        class="section wrap contact-section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="section-top">
+          <p class="eyebrow">04 / START A CONVERSATION</p>
+          <span class="contact-spark" aria-hidden="true"
+            ><svg class="spark" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M24 4v40M4 24h40M10 10l28 28M10 38l28-28" /></svg
+          ></span>
+        </div>
+        <h2 id="contact-title">
+          Have something<br />in mind? <em>Let’s talk.</em>
+        </h2>
+        <p>
+          For a project, a collaboration, or a conversation about software.<br />Drop
+          me a line — I’d love to hear what you’re thinking.
+        </p>
+        <a class="email-link" href="mailto:rajin0619@gmail.com"
+          >rajin0619@gmail.com
+          <span aria-hidden="true"
+            ><svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 19 19 5M5 5h14v14" /></svg></span
+        ></a>
+        <div class="social-links">
+          <a
+            href="https://github.com/nmrajin"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub
+            <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 19 19 5M5 5h14v14" /></svg
+            ><span class="sr-only"> (opens in a new tab)</span></a
+          ><a
+            href="https://www.linkedin.com/in/nmrajin/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn
+            <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 19 19 5M5 5h14v14" /></svg
+            ><span class="sr-only"> (opens in a new tab)</span></a
+          ><a
+            href="https://x.com/nmrajin"
+            target="_blank"
+            rel="noopener noreferrer"
+            >X / Twitter
+            <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 19 19 5M5 5h14v14" /></svg
+            ><span class="sr-only"> (opens in a new tab)</span></a
+          >
+        </div>
+      </section>
     </main>
-
-    <div class="controls">
-        <div class="control active-btn" data-id="home" >
-            <i class="fas fa-home"></i>
-        </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-code"></i>
-        </div>
-        <div class="control" data-id="research">
-            <i class="far fa-newspaper"></i>
-        </div>
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope"></i>
-        </div>
-    </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
-    <script src="app.js"></script>
-</body>
+    <footer class="site-footer wrap">
+      <a class="wordmark" href="#home" aria-label="Back to top"
+        >rajin<span class="accent">.</span></a
+      >
+      <p>© <span id="year">2026</span> Nur Mohammed Rajin</p>
+      <a href="#home"
+        >Back to top
+        <span aria-hidden="true"
+          ><svg class="arrow" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 20V4M5 11l7-7 7 7" /></svg></span
+      ></a>
+    </footer>
+  </body>
 </html>
