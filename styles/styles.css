@@ -268,7 +268,7 @@ em {
   aspect-ratio: 1/0.99;
   object-fit: cover;
   object-position: center 31%;
-  filter: saturate(0.65);
+  filter: saturate(0.72) contrast(1.04) brightness(0.98) sepia(0.06);
   border-radius: 2px;
 }
 
