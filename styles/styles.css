@@ -1180,3 +1180,13 @@ h3 {
   margin: 12px 0 0;
   max-width: 370px;
 }
+
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+.about-links .text-link {
+  min-height: 44px;
+}

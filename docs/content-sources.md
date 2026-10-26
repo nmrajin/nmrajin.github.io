@@ -33,7 +33,7 @@ GitHub links LinkedIn, X, and Facebook. Direct requests to these social sites we
 
 ## Editorial decisions
 
-Removed the university project gallery, outdated student/expected-graduation introduction, percentage-like skill bars, unsupported current research claim, and link to the old resume. Existing resume and image assets remain in the repository, but are not linked from the new site.
+Removed the university project gallery, outdated student/expected-graduation introduction, percentage-like skill bars, unsupported current research claim, and link to the old resume. The old student résumé was subsequently replaced on 2026-10-26; see the résumé update below. Unused academic project images remain in the repository.
 
 No employer relationships, employment dates, ownership percentages, performance results, experience durations, availability claims, or graduation status were invented. Expertise remains separate from the repository-backed project summaries.
 
@@ -61,10 +61,18 @@ The owner has authorized using the added repositories for the portfolio. Their R
 
 ### Validation boundary
 
-The portfolio itself is browser-tested. The source projects are inspected as evidence only: their servers, private APIs, hardware controls, payments, deployment workflows, and test suites were not executed. Do not read this audit as independent certification of those systems. Employment history and exact contribution roles would require additional owner-provided information before adding those claims.
+The portfolio itself is browser-tested. The source projects are inspected as evidence only: their servers, private APIs, hardware controls, payments, deployment workflows, and test suites were not executed. Do not read this audit as independent certification of those systems. Project inspection does not by itself verify employment history or exact contribution roles. Résumé employment and education details now come from the owner-supplied document, as recorded below.
 
 ## Public naming and contact protection
 
 Internal project identifiers are omitted from project labels and this audit. Descriptive titles are used for the smart home, battery analytics, and lighting-control projects.
 
 The contact address is absent from initial HTML and stored obfuscated in the client script. It becomes a usable email link only after the visitor activates the reveal button. Keyboard users receive focus on the revealed link; without JavaScript, the page offers LinkedIn as a fallback. This deters basic source-only scrapers, not determined crawlers or browser automation. It cannot retract an address already available in prior commits, an old resume, or other public profiles. No server-side bot challenge or hosted contact form is configured.
+
+## Résumé update — 2026-10-26
+
+The owner-supplied `Nur_Mohammed_Rajin_Resume_V1_Merged.docx` is the source for employment titles, employer names, dates, and completed education. The update retains Software Engineer at Datasoft Manufacturing & Assembly Inc. Limited (March 2025–Present), Support Engineer at Nonagon Infolytic (June–December 2024), Web Development Intern at Artifex (March–June 2024), and the BSc completion in 2024. No employment dates, seniority, compensation, numerical outcomes, or company-specific project ownership were inferred from repository activity.
+
+The obsolete GitHub handle was corrected to the current profile. Repository-backed technical skills and selected projects were added using the public naming conventions above; projects are listed separately from employment rather than assigned to an unverified employer. Academic projects and expected-graduation wording are absent.
+
+The two-page résumé is provided as PDF and editable DOCX. The original PDF filename and URL are preserved, and the About section links to it. These public downloads contain the owner's contact details from the attachment; the page's email disclosure remains interaction-gated. The original uploaded document is preserved outside the checkout.

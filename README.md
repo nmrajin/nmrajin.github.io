@@ -33,3 +33,7 @@ For another machine, install Dart Sass 1.93.2 using your preferred package manag
 ## Content
 
 See [the content audit](docs/content-sources.md) for the public sources, repository classification, and professional project evidence. Academic projects are no longer featured. The work section features eight repository-backed projects, category filters, expandable technical details, and five related dashboards/prototypes. The source repositories are private; public summaries contain no operational data or source links.
+
+## Résumé
+
+The About section links to [the current PDF](resume/Resume%20of%20Nur%20Mohammed%20Rajin.pdf). Its existing URL is preserved. An [editable Word copy](resume/Nur_Mohammed_Rajin_Resume.docx) is included; see [résumé notes](resume/README.md) for updating and validation.
